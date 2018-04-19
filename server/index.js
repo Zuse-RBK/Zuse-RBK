@@ -4,7 +4,7 @@ var user = require('../database-mongo');
 var session = require('express-session');
 var app = express();
 var cookieParser = require('cookie-parser');
-var handler=require('./request-handler.js');
+ var handler=require('./request-handler.js');
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
